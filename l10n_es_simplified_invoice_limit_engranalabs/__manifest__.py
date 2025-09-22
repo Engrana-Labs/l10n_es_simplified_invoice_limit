@@ -18,5 +18,6 @@ Permite definir un límite personalizado para las facturas simplificadas en Espa
     'data': [
         'views/spain_location_settings.xml',
     ],
+    'images': ['static/description/banner.png']
 }
 
