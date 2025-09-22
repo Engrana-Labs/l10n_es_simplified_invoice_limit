@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>l10n_es_simplified_invoice_limit — Engrana Labs</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 20px;
+            background: #fff
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto
+        }
+
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 12px;
+            margin-bottom: 18px
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0
+        }
+
+        .subtitle {
+            color: #666;
+            margin-top: 6px
+        }
+
+        .grid {
+            display: flex;
+            gap: 28px;
+            flex-wrap: wrap
+        }
+
+        .left {
+            flex: 1 1 480px
+        }
+
+        .right {
+            flex: 0 0 440px
+        }
+
+        .box {
+            background: #fafafa;
+            border: 1px solid #f0f0f0;
+            padding: 14px;
+            border-radius: 6px
+        }
+
+        ul {
+            padding-left: 1.1em
+        }
+
+        pre {
+            background: #f7f7f7;
+            padding: 10px;
+            border-radius: 4px;
+            overflow: auto
+        }
+
+        .screenshot {
+            display: block;
+            max-width: 100%;
+            border: 1px solid #e6e6e6;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06)
+        }
+
+        footer {
+            border-top: 1px solid #eee;
+            margin-top: 18px;
+            padding-top: 12px;
+            color: #666;
+            font-size: 13px
+        }
+
+        a {
+            color: #0b66c3
+        }
+
+        .note {
+            background: #fffbe6;
+            border-left: 4px solid #ffd24d;
+            padding: 10px;
+            border-radius: 4px;
+            color: #6b5a00
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>l10n_es_simplified_invoice_limit — Límite factura simplificada (ES)</h1>
+            <div class="subtitle">Engrana Labs — <a href="https://www.engranalabs.com" target="_blank"
+                    rel="noopener">engranalabs.com</a></div>
+        </header>
+
+        <div class="grid">
+            <div class="left">
+                <div class="box">
+                    <h2>Descripción rápida</h2>
+                    <p>Módulo para Odoo 18 que hace visible y editable el ajuste
+                        <strong>l10n_es_simplified_invoice_limit</strong> en <strong>Ajustes → Contabilidad /
+                            Facturación</strong>. Hereda la vista del módulo <code>l10n_es</code> y muestra el bloque
+                        que contiene el ajuste. No redefine el campo en <code>res.company</code>.</p>
+
+                    <h3>Requisitos</h3>
+                    <ul>
+                        <li><code>base</code></li>
+                        <li><code>account</code></li>
+                        <li><code>l10n_es</code></li>
+                    </ul>
+
+                    <h3>Instalación rápida</h3>
+                    <pre>1. git clone https://github.com/engranalabs/l10n_es_simplified_invoice_limit.git
+2. Reinicia Odoo y actualiza la lista de apps (modo desarrollador).
+3. Instala el módulo **Límite factura simplificada (ES) - Engrana Labs**.
+4. Ve a **Ajustes → Contabilidad / Facturación** y verás el ajuste.</pre>
+
+                    <div class="note" style="margin-top:10px;">
+                        <strong>IMPORTANTE:</strong> consulta esta entrada de Odoo para decidir qué límite debes
+                        establecer: <br>
+                        <a href="https://www.odoo.com/es_ES/blog/business-hacks-1/factura-simplificada-en-espana-1231"
+                            target="_blank"
+                            rel="noopener">https://www.odoo.com/es_ES/blog/business-hacks-1/factura-simplificada-en-espana-1231</a>
+                    </div>
+                </div>
+
+                <div style="height:14px"></div>
+
+                <div class="box">
+                    <h3>Créditos / Contacto</h3>
+                    <p><strong>Engrana Labs</strong><br>
+                        Web: <a href="https://www.engranalabs.com" target="_blank"
+                            rel="noopener">https://www.engranalabs.com</a><br>
+                        Email: <a href="mailto:info@engranalabs.com">info@engranalabs.com</a></p>
+
+                    <h3>Licencia</h3>
+                    <p>AGPL-3.0-or-later — el texto completo de la licencia se incluye en el fichero
+                        <code>LICENSE</code> en la raíz del repositorio.</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="box" style="text-align:center">
+                    <img class="screenshot" src="./ajustes.png"
+                        alt="Captura: Ajuste Límite factura simplificada (ES)" />
+
+                    <p style="font-size:13px;color:#666;margin-top:8px">Captura: Ajuste <em>Simplified Invoice
+                            Limit</em> en Ajustes → Contabilidad</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>Repositorio: <strong>https://github.com/Engrana-Labs/l10n_es_simplified_invoice_limit</strong></div>
+            <div style="margin-top:6px">Este módulo hace visible un ajuste ya definido por <code>l10n_es</code>. Si el
+                campo no existe en tu instalación, revisa el módulo <code>l10n_es</code> o contacta con Engrana Labs.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
