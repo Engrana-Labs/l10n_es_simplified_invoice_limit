@@ -13,7 +13,7 @@ Permite definir un límite personalizado para las facturas simplificadas en Espa
     'support': 'info@engranalabs.com',
     'license': 'AGPL-3',
     'category': 'Accounting',
-    'version': '0.1',
+    'version': "18.0.1.0.0",
     'depends': ['base', 'l10n_es', 'account'],
     'data': [
         'views/spain_location_settings.xml',
