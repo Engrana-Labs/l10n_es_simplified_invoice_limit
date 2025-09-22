@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_res_config_settings_show_simplified" model="ir.ui.view">
+    <field name="name">res.config.settings.view.form.show.simplified</field>
+    <field name="model">res.config.settings</field>
+    <!-- heredamos la vista definida en l10n_es -->
+    <field name="inherit_id" ref="l10n_es.res_config_settings_view_form" />
+    <field name="arch" type="xml">
+      <!-- Hacemos visible el bloque Spain Localization -->
+      <xpath expr="//block[@name='spain_localization']" position="attributes">
+        <attribute name="invisible">0</attribute>
+      </xpath>
+    </field>
+  </record>
+</odoo>
