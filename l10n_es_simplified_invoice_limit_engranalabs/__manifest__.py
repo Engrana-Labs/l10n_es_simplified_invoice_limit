@@ -8,7 +8,7 @@
 Permite definir un límite personalizado para las facturas simplificadas en España, adaptándose a las necesidades específicas de cada empresa.
     """,
 
-    'author': "Engrana Labs",
+    'author': "Javier González Álvarez | Engrana Labs | javier@engranalabs.com",
     'website': "https://www.engranalabs.com",
     'support': 'info@engranalabs.com',
     'license': 'AGPL-3',
